@@ -1,6 +1,5 @@
 <?php
-$func =function($string)
-{
+$func =function($string) {
     return strtoupper($string);
 };
 echo $func("test");
