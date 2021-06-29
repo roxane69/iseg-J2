@@ -1,5 +1,5 @@
 <?php
-function my_swap(mixed &$a, mixed &$b){
+function my_swap(&$a, &$b) {
 $c = $a;
 $a = $b;
 $b = $c;
