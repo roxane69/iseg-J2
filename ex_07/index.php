@@ -1,4 +1,9 @@
 >?php
-require'ex_07.php';
-echo ( get_angry_dog(3));
-?>
+fonction print_array (array $ $my_array )
+ {
+foreach ( $ my_array as $back )
+  {
+      echo $back , "\" ;
+    }
+ } ;
+ ?>
